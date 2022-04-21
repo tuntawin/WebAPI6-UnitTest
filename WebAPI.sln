@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32319.34
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI6", "WebAPI6\WebAPI6.csproj", "{3EC8019E-FF43-4274-B51E-295523D831F2}"
 EndProject
@@ -13,7 +13,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI6.Services.Tests", "W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI6.Repository", "WebAPI6.Repository\WebAPI6.Repository.csproj", "{A3768C48-5951-461F-B297-5B4FD5E6383D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI6.Repository.Tests", "WebAPI6.Repository.Tests\WebAPI6.Repository.Tests.csproj", "{9EB65AD5-0ED3-41E4-A658-677419217FE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI6.Repository.Tests", "WebAPI6.Repository.Tests\WebAPI6.Repository.Tests.csproj", "{9EB65AD5-0ED3-41E4-A658-677419217FE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{CEB9A4FF-848F-45CD-99DA-371300316F5C}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\NORTHWND_UT.sql = Lib\NORTHWND_UT.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
